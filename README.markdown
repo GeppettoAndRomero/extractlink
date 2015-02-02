@@ -25,7 +25,7 @@ require 'bundler/setup'
 require 'extractlink'
 
 html = ...
-hash = ExtractLink.analyse(url,html)
+href_array,iframe_array,link_array = ExtractLink.analyse(html)
 
 ```
 
